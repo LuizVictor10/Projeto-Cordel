@@ -5,20 +5,22 @@
     --font2:"Sriracha";
     --font3:Verdana, Geneva, Tahoma, sans-serif;
 }
-header{width: auto; height: 360px;background-color: black;color: #fff;padding: 30px 20px 10px 20px ; } 
+* {margin: 0; padding: 0;}
+header{width: auto; height: 200px;background-color: black;color: #fff;padding: 30px 20px 10px 20px ; } 
 header h1{text-align: center; font-family: var(--font1);font-size: 136px;padding-top: -50px;font-variant: small-caps;font-size: 10vw;}
-header h2{text-align: center; font-family: var(--font3);font-size: 20px;} 
-body{font-family: var(--font3); font-size: 47px;}
-section{padding-top: 3vh;padding-bottom: 3vh;line-height: 2em; font-family: var(--font2);}
-#imagem1{background-image: url('imagens/background001.jpg');background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}
-#imagem2{background-image: url('imagens/background002.jpg');background-attachment: scroll;background-size: cover;}
-#texto{background-color: rgba(0, 0, 0, 0.288);display: inline-block;color: #fff;}
-#texto2{background-color: #51564b73; display: inline-block; color: #fff;}
+header h2{text-align: center; font-family: var(--font3);font-size: 20px; color: lightgray ;} 
+html, body{font-family: var(--font3); font-size: 47px; min-height: 100vh; min-width: 85vh;font-size: 5vw;}
+section{padding-top: 3vh;padding-bottom: 3vh;line-height: 2em; font-family: var(--font2); margin-left: 20px;}
+.imagem{box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);background-position: center center;}
+#imagem1{background-image: url('imagens/background001.jpg');background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+#imagem2{background-image: url('imagens/background002.jpg');background-attachment: fixed;background-size: cover; padding-left: 3px;}
+#texto{background-color: rgba(0, 0, 0, 0.288);display: inline-block;color: #fff; margin-left: 20px;}
+#texto2{background-color: rgba(0, 0, 0, 0.288); display: inline-block; color: #fff; margin-left: 20px;}
 #principal{margin-top: 50px;}
 header a{text-decoration: none; color: #fff;font-weight: bold;}
 a:hover{text-decoration: underline;} 
 
 
-footer{text-align: center; font-size: 18px;background-color: black;padding:5px;}
+footer{text-align: center; font-size: 20px;background-color: black;}
 footer p{color: lightgray;}
 footer a{color:#fff; text-decoration: none;}
